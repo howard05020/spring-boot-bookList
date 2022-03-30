@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: dev
+  thymeleaf:
+     mode: HTML
+  devtools:
+    restart:
+      trigger-file: .trigger
+
+book:
+  name: test
+  author: Luffy
+  isbn: 1235987
+  description: ${book.name}, this book is nice!

@@ -1,0 +1,27 @@
+2022-03-30 16:24:57.819  INFO 35268 --- [restartedMain] c.howard.SpringBootBookListApplication   : Starting SpringBootBookListApplication using Java 17.0.1 on MSI with PID 35268 (C:\Users\orz19\Desktop\Java\workspace\spring-boot-bookList\target\classes started by orz19 in C:\Users\orz19\Desktop\Java\workspace\spring-boot-bookList)
+2022-03-30 16:24:57.820 DEBUG 35268 --- [restartedMain] c.howard.SpringBootBookListApplication   : Running with Spring Boot v2.6.4, Spring v5.3.16
+2022-03-30 16:24:57.821  INFO 35268 --- [restartedMain] c.howard.SpringBootBookListApplication   : The following 1 profile is active: "dev"
+2022-03-30 16:24:57.884  INFO 35268 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-30 16:24:57.885  INFO 35268 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-30 16:24:58.627  INFO 35268 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-30 16:24:58.684  INFO 35268 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46 ms. Found 1 JPA repository interfaces.
+2022-03-30 16:24:59.421  INFO 35268 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-30 16:24:59.435  INFO 35268 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-30 16:24:59.436  INFO 35268 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-30 16:24:59.526  INFO 35268 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-30 16:24:59.528  INFO 35268 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1642 ms
+2022-03-30 16:24:59.731  INFO 35268 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-30 16:24:59.774  INFO 35268 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-30 16:24:59.975  INFO 35268 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-30 16:25:00.083  INFO 35268 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-03-30 16:25:00.429  INFO 35268 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-03-30 16:25:00.456  INFO 35268 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-30 16:25:01.153  INFO 35268 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-30 16:25:01.161  INFO 35268 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-30 16:25:01.739  WARN 35268 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-30 16:25:02.143  INFO 35268 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-30 16:25:02.204  INFO 35268 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-30 16:25:02.216  INFO 35268 --- [restartedMain] c.howard.SpringBootBookListApplication   : Started SpringBootBookListApplication in 4.863 seconds (JVM running for 5.364)
+2022-03-30 16:25:10.347  INFO 35268 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-30 16:25:10.347  INFO 35268 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-03-30 16:25:10.349  INFO 35268 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
